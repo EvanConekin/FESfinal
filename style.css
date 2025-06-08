@@ -787,7 +787,8 @@ start
 */
 
 .start__container {
-padding: 96px 0;
+padding: 96px;
+margin-bottom: 64px;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -796,7 +797,7 @@ background-color: rgb(100, 21, 255);
 }
 .start__row {
 margin: 0 auto;
-padding: 0 32px;
+padding: 0 36px;
 width: 100%;
 max-width: 1024px;
 display: flex;
@@ -857,6 +858,117 @@ color: rgba(100, 21, 255);
 background-color: rgba(247, 250,252);
 
 }
+/*
+
+footer
+
+*/
+
+.footer__container {
+  padding: 96px 32px;
+margin-bottom: -32px;
+margin-top: 96px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(100, 21, 255);
+}
+.footer__row {
+  width: 100%;
+  max-width: 1024px;
+  margin: o auto;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -48px;
+
+}
+.footer__column {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+
+}
+.footer__column--title {
+  font-weight: 700;
+  color: #f7fafc;
+  line-height: 1.5;
+}
+.footer__column--link {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  cursor: pointer;
+  color: #f7fafc;
+  display: inline;
+  text-decoration: none;
+}
+.footer__column--link:nth-child(2) {
+  margin-top: 24px;
+}
+.footer__divider {
+  width: 100%;
+  height: 2px;
+  margin: 64px 0;
+  background: rgb(116,44,255);
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer__logo--img {
+  width: 32px;
+  height: 32px;
+}
+.footer__logo--text {
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 8px;
+  color: #f7fafc;
+  letter-spacing: 0.05em;
+}
+.footer__copyright {
+  color: #f7fafc;
+  font-weight: 500;
+}
+.footer__socials {
+  display: flex;
+  align-items: center;
+  margin-left: -8px;
+
+}
+.footer__social--link {
+  margin-left: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7fafc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 300ms ease;
+  z-index: 2;
+
+}
+
+/*
+
+responsiveness
+
+
+*/
+
 
 
 
